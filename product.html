@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Meddon' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Sofadi One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Rammetto One' rel='stylesheet'>
+  <link rel="stylesheet" href="css/product.css" type="text/css">
+  <link rel="stylesheet" href="css/style1.css" type="text/css">
+  <title> FROM TIBET </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <nav class="top-nav">
+      <div class="brand">C&#244;t&#233; Tibet </div>
+      <div class="home">
+        <div class="item "><a class="one" href="index.html">HOME</a></div>
+        <div class="item "><a class="one" href="#">PRODUCTS</a></div>
+        <div class="item "><a class="one" href="contact.html">CONTACT</a></div>
+      </div>
+    </nav>
+
+    <div class="top">
+      <h1 class="name1"> C&#244;t&#233; Tibet </h1>
+      <img src="images/flag.jpg" alt="logo" class="logo1">
+    </div>
+  </header>
+  <main>
+    <div class="main3">
+      <div class=" pro">
+        <a class="one " href="ritual.html"><h3>RITUAL</h3></a>
+        <div class="first">
+          <img class="mySlides2" src="images/ritual1.jpg">
+          <img class="mySlides2" src="images/ritual2.jpg">
+          <img class="mySlides2" src="images/ritual3.jpeg">
+          <img class="mySlides2" src="images/ritual4.jpg">
+          <img class="mySlides2" src="images/ritual5.jpg">
+          <img class="mySlides2" src="images/ritual6.jpg">
+          <img class="mySlides2" src="images/ritual7.jpg">
+          <img class="mySlides2" src="images/ritual8.jpg">
+          <p>Whilst Tibet offers some of the most incredible sights and immersive culture in the world, there is another side to this incredible place, it&#39;s religious side. Tibet&#39;s primary religion is that of Buddhism, and one of Tibetan Buddhism&#39;s
+            most fascinating features is the Tibetan Ritual Items. They are used almost every day by Buddhist monks and laymen alike, and are an important part of Tibet&#39;s history and culture. Tibetan ritual items represent different aspects of the
+            Buddhist religion and belief system. Different objects hold different roles and, are help to distinguish Tibetan Buddhism from other forms of Buddhism. Normally, Tibetan Buddhists leave offerings and gifts to a Buddha in the hopes it will
+            grant them good luck and fortune. The ritual objects can help in ensuring that this process works seamlessly, and that the Buddha hears the gift bearer&#39;s wishes.
+          </p>
+        </div>
+        <a class="one " href="jewellery.html"><h3> JEWELLERY</h3></a>
+        <div class="container">
+          <img class="jewell" src="images/jewellerymain.jpg" alt="jewellery">
+        </div>
+      </div>
+      <div class="second pro">
+        <a class="one " href="stone.html"><h3>HEALING STONES</h3></a>
+        <div class="container">
+          <img class="stone" src="images/stone.jpg" alt=" healing stone logo">
+        </div>
+      </div>
+      <div class="third pro">
+        <a class="one " href="#"><h3>MEDITATION</h3></a>
+        <div class="container">
+          <img class="meditate" src="images/meditation.jpg" alt="meditation">
+          <div class="overlay">
+            <div class="text">Meditation is a conscious effort to change how the mind works. The Pali word for meditation is 'bhavana' which means 'to make grow' or 'to develop'.
+            </div>
+          </div>
+        </div>
+        <a class="one" href="bowl.html"><h3>SINGING BOWL</h3></a>
+        <div class="container">
+          <img class="singingbowl" src="images/singinglogo.jpg" alt="singing bowl">
+        </div>
+      </div>
+    </div>
+  </main>
+  <script>
+    var myIndex = 0;
+    slide();
+
+    function slide() {
+      var i;
+      var x = document.getElementsByClassName("mySlides2");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {
+        myIndex = 1
+      }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(slide, 2000); // Change image every 2 seconds
+    }
+  </script>
+  <footer>
+    <div class="footer">
+      <div class="copyright">&#169;TSHERING</div>
+      <div class="foot">
+        <div class="item "><a class="two" href="index.html">HOME</a></div>
+        <div class="item "><a class="two" href="#">PRODUCTS</a></div>
+        <div class="item "><a class="two" href="contact.html">CONTACT</a></div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
